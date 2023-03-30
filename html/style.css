@@ -1,0 +1,171 @@
+body {
+    background-color: #FDEDEC;; /* Fond de page rouge */
+  }
+  header {
+    display: flex; /* Utilise la disposition flexbox */
+    justify-content: space-between; /* Étire les éléments sur l'axe horizontal */
+    align-items: center; /* Centre les éléments sur l'axe vertical */
+    height: 50px; /* Définit la hauteur du header */
+    background-color: #A6ACAF; /* Définit la couleur de fond du header */
+    padding: 20px; /* Ajoute un padding (espacement interne) à gauche et à droite */
+    left: 10;
+    right: 0
+  }
+  
+  
+  nav ul {
+    display: flex; /* Utilise la disposition flexbox */
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 0; /* Supprime les marges de la liste */
+    padding: 0; /* Supprime le padding de la liste */
+  }
+  
+  nav ul li {
+    margin-right: 20px; /* Ajoute une marge à droite pour séparer les éléments */
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Supprime la marge à droite pour le dernier élément */
+  }
+  
+  nav ul li a {
+    color: #333; /* Définit la couleur de texte pour les liens */
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+  }
+  
+  h1 {
+    font-size: 24px; /* Définit la taille de police pour le titre */
+    color: #333; /* Définit la couleur de texte pour le titre */
+    margin: 0; /* Supprime les marges du titre */
+  }
+  /*tableau1 */
+  body {
+    background-image: url('votre_image_de_fond.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .table-container {
+    float: right;
+    width: -200px
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top:100px;
+    margin-right: 300px;
+    
+  }
+  
+  td {
+    border: 16px solid #34495E; /*Bordure & coleur */
+    padding: 20px; /*taille du tableau */
+  }
+  
+  td:first-child {
+    font-weight: bold;
+    background-color: #F9EBEA;
+    width: 150px;
+  }
+  
+
+  
+  .table-Picture1 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 500px;
+    
+  }
+  
+/* SYMABOX2
+  body {
+    background-image: url('votre_image_de_fond.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .table-container {
+    float: right;
+    width: -200px
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top:100px;
+    margin-right: 300px;
+    
+  }
+  
+  td {
+    border: 16px solid #34495E; /*Bordure & coleur */
+/*    padding: 20px; /*taille du tableau */
+/*
+  }
+  
+  td:first-child {
+    font-weight: bold;
+    background-color: #F9EBEA;
+    width: 150px;
+  }
+  
+*/  
+/*
+  
+  .table-Picture1 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 500px;
+    
+  }
+*/
+
+  footer {
+    background-color: #A6ACAF;
+    color: #333;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    right: 0
+   
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+  }
+  footer {
+    background-color: #A6ACAF;
+    color: #333;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    right: 0
+   
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+  } 
